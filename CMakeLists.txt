@@ -10,6 +10,7 @@ idf_component_register(
         "src/port.c"
         "src/query_params.c"
         "src/crypto.c"
+        "src/bitset.c"
     INCLUDE_DIRS include
     PRIV_INCLUDE_DIRS src
     REQUIRES wolfssl json http-parser mdns spi_flash
